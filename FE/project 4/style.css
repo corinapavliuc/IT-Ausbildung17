@@ -1,0 +1,57 @@
+    *{
+      margin: 0;
+      padding: 0; 
+      box-sizing: border-box; 
+    }
+    header{
+        background-color: rgb(235, 235, 235);
+        padding: 20px;
+    }
+    h1{
+        text-align: center;
+        font-size: 48px;
+    }
+    h1:hover{
+        color: azure;
+    }
+    main{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+        background-color: grey;
+        margin-top: 50px;
+        border-radius: 8px;
+        box-shadow: 0 0 5px 1px; rgba(0,0,0,0,5)
+    }
+.item{
+    width:calc(50% - 20px); 
+    height: 250px;
+    background-color: darkorange;
+    margin: 10px;
+    background-size: cover;
+    transition: 1s;
+}
+.item:hover{
+    transform: scale(1.05); rotate: 5deg;
+}
+
+.item-1{
+    background-image: url(./images/jeremy-liem-nXUT5sYIA30-unsplash.jpg);
+}
+.item-2{
+    background-image: url(./images/andrew-ly-KZ0SZ2fEd20-unsplash.jpg);
+}
+.item-3{
+    background-image: url(./images/giancarlo-corti-AnwzytSWrv8-unsplash.jpg);
+}
+.item-4{
+    background-image: url(./images/lena-denk-vO_RghTzvxE-unsplash.jpg);
+}
+.item-5{
+    background-image: url(./images/toni-tan-jESvZ5mzcwc-unsplash.jpg
+}
+.item-6{
+    background-image: url(./images/mike-benna-y5q_e7b7LJ0-unsplash.jpg);
+}
